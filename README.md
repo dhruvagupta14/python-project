@@ -14,7 +14,7 @@
 5. Entry Signal: Relative Strength Index (RSI) < 50 (indicating a pullback within the uptrend).
 
 ## Libraries Used
-#### 1. yfinance
+1. yfinance
 2. pandas
 3. numpy
 4. datetime
