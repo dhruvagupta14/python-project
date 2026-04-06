@@ -18,3 +18,10 @@
 2. pandas
 3. numpy
 4. datetime
+
+## Project Structure
+-calculate_moving_average(): Computes rolling moving averages.
+-calculate_rsi(): Computes the Relative Strength Index.
+-get_top_sp500_tickers(): Returns the universe of stocks to screen.
+-screen_stocks(): Main logic loop that downloads data, applies filters, and handles errors.
+-main(): Entry point for execution.
