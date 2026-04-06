@@ -21,7 +21,21 @@
 
 ## Project Structure
 -calculate_moving_average(): Computes rolling moving averages.
+
 -calculate_rsi(): Computes the Relative Strength Index.
+
 -get_top_sp500_tickers(): Returns the universe of stocks to screen.
+
 -screen_stocks(): Main logic loop that downloads data, applies filters, and handles errors.
+
 -main(): Entry point for execution.
+
+## Output 
+Console: A summarized DataFrame of stocks meeting all criteria.
+File: A detailed report saved as screened_stocks.csv containing:
+1.Ticker Symbol
+2.Current Price
+3.Moving Averages (50, 150, 200 Day)
+4.RSI Value
+5.52-Week High
+6.Percentage of Price relative to 52-Week High
