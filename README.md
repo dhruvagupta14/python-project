@@ -32,7 +32,9 @@
 
 ## Output 
 Console: A summarized DataFrame of stocks meeting all criteria.
+
 File: A detailed report saved as screened_stocks.csv containing:
+
 1.Ticker Symbol
 
 2.Current Price
