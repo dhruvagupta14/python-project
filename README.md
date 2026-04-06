@@ -34,8 +34,13 @@
 Console: A summarized DataFrame of stocks meeting all criteria.
 File: A detailed report saved as screened_stocks.csv containing:
 1.Ticker Symbol
+
 2.Current Price
+
 3.Moving Averages (50, 150, 200 Day)
+
 4.RSI Value
+
 5.52-Week High
+
 6.Percentage of Price relative to 52-Week High
